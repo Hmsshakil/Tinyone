@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
+h1,h3,h4,h5,h6,h2,p,span,a{
+    font-family: 'Fondamento', cursive;
+}
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+    background-color:#FCDA00;
+}
+.navbar{
+    background-color:transparent!important;
+    box-shadow: none;
+}
+.icon{
+    font-size:25px;
+    margin-left:0;
+}
+.content-text{
+    padding-top:150px;
+}
+.content-image{
+padding-top: 80px;    
+    width: 100%;
+    text-align: end;
+}
+.content-image img{
+border-radius:15px;
+}
+.carousel-indicators li{
+    background-color:black;
+}
+.row{
+    padding-bottom:80px!important;
+}
+article{
+    background-color:white;
+}
+.article-head{
+    text-align: center;
+    padding-top: 80px;
+}
+.future{
+    padding-top:60px;
+}
+.future i{
+    font-size:50px
+}
+footer{
+   background-color:black;
+    padding-top: 80px;
+   
+}
+
+.input-group.md-form.form-sm.form-2 input {
+  border: 1px solid #bdbdbd;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+    background-color: white;
+}
+.input-group.md-form.form-sm.form-2 input.red-border {
+  border: 1px solid #ef9a9a;
+}
+.input-group.md-form.form-sm.form-2 input.lime-border {
+  border: 1px solid #cddc39;
+}
+.input-group.md-form.form-sm.form-2 input.amber-border {
+  border: 1px solid #ffca28;
+}
+.foot-icon{
+    text-align: center
+}
+.foot-icon i{
+  color:#FCDA00;
+    padding:10px;
+    font-size:40px;
+}
+.copyright{
+    text-align: center;
+    color:#FCDA00;
+    font-size:18px;
+    padding-top: 50px;
+}
+/*Footer*/
+@media (min-width:320px) and (max-width:389.99px){
+
+}
+@media (min-width: 390px) and (max-width: 479.99px){
+
+}
+
+@media (min-width: 480px) and (max-width: 575.98px){
+     .content-text{
+        padding-top:80px!important
+    }
+    .content-text h1{font-size:2rem}
+    .content-text h5{font-size:1rem}
+    .content-text p{font-size:.9rem}
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .content-text{
+        padding-top:70px!important
+    }
+    .content-text h1{font-size:2rem}
+    .content-text h5{font-size:1rem}
+    .content-text p{font-size:.9rem}
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { .content-text{
+        padding-top:120px!important
+    } }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { }
+
+
+@media (min-width: 1200px) { }
